@@ -8,3 +8,25 @@
 	background-size: 500px;
     background-attachment: fixed;
 }
+
+.angled-div {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: -20px;
+    right: -100px;
+    background-color: #f28c18;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.angled-div>div {
+    transform: rotate(45deg);
+    position: absolute;
+    padding: 5px;
+    top: 32%;
+}
